@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #0b1d3a, #000);
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 320px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0,0,0,0.6);
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.card {
+  background: rgba(255,255,255,0.08);
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffd633;
+}
+
+.footer {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 15px;
+}
